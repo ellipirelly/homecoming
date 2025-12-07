@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Einladung</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .invitation {
+            width: 100%;
+            max-width: 600px;
+        }
+        .start-button {
+            margin-top: 25px;
+            background: #fff;
+            padding: 18px 32px;
+            font-size: 22px;
+            font-weight: bold;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="home coming_fertig.2.png" class="invitation">
+
+    <button class="start-button"
+        onclick="window.location.href='https://form.typeform.com/to/tfO6W1rm';">
+        Start
+    </button>
+
+</body>
+</html>
